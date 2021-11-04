@@ -417,6 +417,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			var vegePeople = getInputVal('vege-people');
 			var message = getInputVal('message');
 
+			//Check input
+			if (people < vegePeople) {
+				alert("錯誤: 素食人數超過參加人數！");
+				document.getElementById('people').focus();
+				return false;
+			}
+
 			// Save message
 			saveMessage(name, people, youngPeople, vegePeople, message);
 
