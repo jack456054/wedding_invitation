@@ -1,4 +1,4 @@
-# wedding_invitation
+# Wedding Invitation Website
 ## Introductions
 靜態網頁用來提供婚禮資訊，並且統計參加人數以及對新人的祝福。
 
