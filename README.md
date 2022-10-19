@@ -10,3 +10,4 @@
 - CSS
 - JavaScript
 - Firebase (Host, Realtime Database)
+- Python (Calculation)
